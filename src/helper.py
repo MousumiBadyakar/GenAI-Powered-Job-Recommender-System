@@ -2,11 +2,14 @@ import fitz  # PyMuPDF
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-
+import streamlit as st
 
 load_dotenv()
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+try:
+    OPENROUTER_API_KEY = st.secrets["OPENROUTER_API_KEY"]
+except (KeyError, FileNotFoundError):
+    OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 client = OpenAI(
     api_key=OPENROUTER_API_KEY,
