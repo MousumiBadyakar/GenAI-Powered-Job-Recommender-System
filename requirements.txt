@@ -1,0 +1,6 @@
+streamlit
+openai
+pymupdf
+python-dotenv
+apify-client
+mcp[cli]<2
