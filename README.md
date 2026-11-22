@@ -14,14 +14,6 @@ The project also includes an **MCP (Model Context Protocol) server** that expose
 
 ---
 
-## 🌐 Live Demo
-
-Try the deployed application here:
-
-👉 **[AI Job Recommender – Live on Streamlit](https://genai-powered-job-recommender-system-cu2jcrkfqp8izeyrz8f6yb.streamlit.app/)**
-
----
-
 ## ✨ Features
 
 ### 📄 AI-Powered Resume Analysis
