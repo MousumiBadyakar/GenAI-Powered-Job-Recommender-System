@@ -1,4 +1,4 @@
-# 🤖 AI Job Recommender
+# 🤖 AI Job Recommender System with MCP
 
 **Turn your resume into actionable career insights and job opportunities.**
 
